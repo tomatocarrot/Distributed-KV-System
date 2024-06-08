@@ -1,0 +1,562 @@
+2024-06-01 23:58:01,868 INFO [main]	register protocol:1 success
+2024-06-01 23:58:01,900 INFO [main]	register protocol:29 success
+2024-06-01 23:58:01,902 INFO [main]	register protocol:4 success
+2024-06-01 23:58:01,905 INFO [main]	register protocol:3 success
+2024-06-01 23:58:01,905 INFO [main]	register protocol:31 success
+2024-06-01 23:58:01,906 INFO [main]	register protocol:28 success
+2024-06-01 23:58:01,907 INFO [main]	register protocol:32 success
+2024-06-01 23:58:01,907 INFO [main]	register protocol:33 success
+2024-06-01 23:58:01,907 INFO [main]	register protocol:30 success
+2024-06-01 23:58:01,908 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-06-01 23:58:01,909 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-06-01 23:58:01,909 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-06-01 23:58:01,909 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-06-01 23:58:01,914 INFO [main]	create thread:server-work-thread-1
+2024-06-01 23:58:01,914 INFO [main]	create thread:server-work-thread-2
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-3
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-4
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-5
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-6
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-7
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-8
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-9
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-10
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-11
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-12
+2024-06-01 23:58:01,915 INFO [main]	create thread:server-work-thread-13
+2024-06-01 23:58:01,916 INFO [main]	create thread:server-work-thread-14
+2024-06-01 23:58:01,916 INFO [main]	create thread:server-work-thread-15
+2024-06-01 23:58:01,916 INFO [main]	create thread:server-work-thread-16
+2024-06-01 23:58:02,547 INFO [main]	use jdk nio event mode
+2024-06-01 23:58:02,566 INFO [main]	create thread:timeout-timer-thread-1
+2024-06-01 23:58:02,622 WARN [main]	meta file not exist, name=./data\log\metadata
+2024-06-01 23:58:02,625 WARN [main]	meta file not exist, name=./data\snapshot\metadata
+2024-06-01 23:58:02,660 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=preVote
+2024-06-01 23:58:02,662 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=installSnapshot
+2024-06-01 23:58:02,662 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=requestVote
+2024-06-01 23:58:02,663 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=appendEntries
+2024-06-01 23:58:02,670 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=getConfiguration
+2024-06-01 23:58:02,671 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=getLeader
+2024-06-01 23:58:02,672 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=addPeers
+2024-06-01 23:58:02,674 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=removePeers
+2024-06-01 23:58:02,678 INFO [main]	register service, serviceName=com.github.raftimpl.raft.example.server.service.ExampleService, methodName=get
+2024-06-01 23:58:02,679 INFO [main]	register service, serviceName=com.github.raftimpl.raft.example.server.service.ExampleService, methodName=set
+2024-06-01 23:58:03,954 INFO [main]	create thread:server-acceptor-thread-1
+2024-06-01 23:58:03,957 INFO [main]	server started on port=8053 success
+2024-06-01 23:58:03,970 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-06-01 23:58:03,971 INFO [main]	create thread:client-work-thread-1
+2024-06-01 23:58:03,971 INFO [main]	create thread:client-work-thread-2
+2024-06-01 23:58:03,971 INFO [main]	create thread:client-work-thread-3
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-4
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-5
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-6
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-7
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-8
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-9
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-10
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-11
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-12
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-13
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-14
+2024-06-01 23:58:03,972 INFO [main]	create thread:client-work-thread-15
+2024-06-01 23:58:03,973 INFO [main]	create thread:client-work-thread-16
+2024-06-01 23:58:03,991 INFO [main]	create thread:client-io-thread-1
+2024-06-01 23:58:03,997 INFO [main]	create thread:client-io-thread-2
+2024-06-01 23:58:03,998 INFO [main]	create thread:client-io-thread-3
+2024-06-01 23:58:03,999 INFO [main]	create thread:client-io-thread-4
+2024-06-01 23:58:03,999 INFO [main]	create thread:client-io-thread-5
+2024-06-01 23:58:04,000 INFO [main]	create thread:client-io-thread-6
+2024-06-01 23:58:04,001 INFO [main]	create thread:client-io-thread-7
+2024-06-01 23:58:04,002 INFO [main]	create thread:client-io-thread-8
+2024-06-01 23:58:04,039 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-06-01 23:58:04,039 INFO [main]	create thread:client-work-thread-1
+2024-06-01 23:58:04,039 INFO [main]	create thread:client-work-thread-2
+2024-06-01 23:58:04,039 INFO [main]	create thread:client-work-thread-3
+2024-06-01 23:58:04,039 INFO [main]	create thread:client-work-thread-4
+2024-06-01 23:58:04,039 INFO [main]	create thread:client-work-thread-5
+2024-06-01 23:58:04,039 INFO [main]	create thread:client-work-thread-6
+2024-06-01 23:58:04,039 INFO [main]	create thread:client-work-thread-7
+2024-06-01 23:58:04,039 INFO [main]	create thread:client-work-thread-8
+2024-06-01 23:58:04,040 INFO [main]	create thread:client-work-thread-9
+2024-06-01 23:58:04,040 INFO [main]	create thread:client-work-thread-10
+2024-06-01 23:58:04,040 INFO [main]	create thread:client-work-thread-11
+2024-06-01 23:58:04,040 INFO [main]	create thread:client-work-thread-12
+2024-06-01 23:58:04,040 INFO [main]	create thread:client-work-thread-13
+2024-06-01 23:58:04,040 INFO [main]	create thread:client-work-thread-14
+2024-06-01 23:58:04,040 INFO [main]	create thread:client-work-thread-15
+2024-06-01 23:58:04,040 INFO [main]	create thread:client-work-thread-16
+2024-06-01 23:58:04,045 INFO [main]	create thread:client-io-thread-1
+2024-06-01 23:58:04,046 INFO [main]	create thread:client-io-thread-2
+2024-06-01 23:58:04,047 INFO [main]	create thread:client-io-thread-3
+2024-06-01 23:58:04,049 INFO [main]	create thread:client-io-thread-4
+2024-06-01 23:58:04,050 INFO [main]	create thread:client-io-thread-5
+2024-06-01 23:58:04,051 INFO [main]	create thread:client-io-thread-6
+2024-06-01 23:58:04,051 INFO [main]	create thread:client-io-thread-7
+2024-06-01 23:58:04,052 INFO [main]	create thread:client-io-thread-8
+2024-06-01 23:58:04,267 INFO [server-acceptor-thread-1]	create thread:server-io-thread-1
+2024-06-01 23:58:04,268 INFO [server-acceptor-thread-1]	create thread:server-io-thread-2
+2024-06-01 23:58:04,268 INFO [server-acceptor-thread-1]	create thread:server-io-thread-3
+2024-06-01 23:58:04,269 INFO [server-acceptor-thread-1]	create thread:server-io-thread-4
+2024-06-01 23:58:04,270 INFO [server-acceptor-thread-1]	create thread:server-io-thread-5
+2024-06-01 23:58:04,272 INFO [server-acceptor-thread-1]	create thread:server-io-thread-6
+2024-06-01 23:58:04,273 INFO [server-acceptor-thread-1]	create thread:server-io-thread-7
+2024-06-01 23:58:04,274 INFO [server-acceptor-thread-1]	create thread:server-io-thread-8
+2024-06-01 23:58:04,454 INFO [server-acceptor-thread-1]	create thread:server-io-thread-9
+2024-06-01 23:58:04,455 INFO [server-acceptor-thread-1]	create thread:server-io-thread-10
+2024-06-01 23:58:04,457 INFO [server-acceptor-thread-1]	create thread:server-io-thread-11
+2024-06-01 23:58:04,458 INFO [server-acceptor-thread-1]	create thread:server-io-thread-12
+2024-06-01 23:58:04,459 INFO [server-acceptor-thread-1]	create thread:server-io-thread-13
+2024-06-01 23:58:04,460 INFO [server-acceptor-thread-1]	create thread:server-io-thread-14
+2024-06-01 23:58:04,461 INFO [server-acceptor-thread-1]	create thread:server-io-thread-15
+2024-06-01 23:58:04,462 INFO [server-acceptor-thread-1]	create thread:server-io-thread-16
+2024-06-01 23:58:09,021 INFO [client-io-thread-5]	create thread:invalid-channel-callback-thread-1
+2024-06-01 23:58:09,809 INFO [pool-3-thread-1]	Running pre-vote in term 0
+2024-06-01 23:58:09,811 INFO [pool-2-thread-2]	begin pre vote request
+2024-06-01 23:58:09,810 INFO [pool-2-thread-1]	begin pre vote request
+2024-06-01 23:58:09,814 INFO [pool-2-thread-1]	create thread:client-io-thread-9
+2024-06-01 23:58:09,814 INFO [pool-2-thread-2]	create thread:client-io-thread-9
+2024-06-01 23:58:09,844 INFO [client-work-thread-1]	get pre vote granted from server 1 for term 0
+2024-06-01 23:58:09,844 INFO [client-work-thread-1]	preVoteGrantedNum=2
+2024-06-01 23:58:09,844 INFO [client-work-thread-1]	get majority pre vote, serverId=3 when pre vote, start vote
+2024-06-01 23:58:09,844 INFO [client-work-thread-1]	Running for election in term 1
+2024-06-01 23:58:09,845 INFO [pool-2-thread-4]	begin vote request
+2024-06-01 23:58:09,845 INFO [pool-2-thread-3]	begin vote request
+2024-06-01 23:58:09,847 INFO [client-work-thread-1]	ignore preVote RPC result
+2024-06-01 23:58:09,850 INFO [client-work-thread-2]	Got vote from server 2 for term 1
+2024-06-01 23:58:09,850 INFO [client-work-thread-2]	voteGrantedNum=2
+2024-06-01 23:58:09,850 INFO [client-work-thread-2]	Got majority vote, serverId=3 become leader
+2024-06-01 23:58:09,851 INFO [client-work-thread-2]	ignore requestVote RPC result
+2024-06-01 23:58:09,877 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:09,878 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:10,365 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:10,366 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:10,878 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:10,879 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:11,381 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:11,381 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:11,895 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:11,895 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:12,408 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:12,409 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:12,922 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:12,922 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:13,433 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:13,433 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:13,945 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:13,946 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:14,459 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:14,459 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:14,973 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:14,973 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:15,485 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:15,486 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:15,997 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:15,997 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:16,510 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:16,510 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:17,023 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:17,023 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:17,535 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:17,535 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:18,045 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:18,045 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:18,547 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:18,547 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:19,059 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:19,059 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:19,573 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:19,573 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:20,086 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:20,086 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:20,600 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:20,600 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:21,113 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:21,114 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:21,626 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:21,626 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:22,138 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:22,138 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:22,638 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:22,638 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:23,149 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:23,149 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:23,663 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:23,663 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:24,173 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:24,173 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:24,685 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:24,686 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:25,193 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:25,193 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:25,706 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:25,706 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:26,219 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:26,219 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:26,730 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:26,730 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:27,244 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:27,244 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:27,747 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:27,747 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:28,254 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:28,254 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:28,758 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:28,759 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:29,263 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:29,263 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:29,765 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:29,765 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:30,279 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:30,279 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:30,793 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:30,793 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:31,307 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:31,307 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:31,822 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:31,822 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:32,336 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:32,336 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:32,849 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:32,849 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:33,362 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:33,362 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:33,872 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:33,873 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:34,379 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:34,379 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:34,883 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:34,883 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:35,391 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:35,391 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:35,897 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:35,897 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:36,404 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:36,404 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:36,911 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:36,911 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:37,416 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:37,416 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:37,922 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:37,922 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:38,427 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:38,427 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:38,933 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:38,933 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:39,441 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:39,441 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:39,949 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:39,949 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:40,454 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:40,454 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:40,960 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:40,960 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:41,466 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:41,466 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:41,972 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:41,972 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:42,478 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:42,478 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:42,986 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:42,986 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:43,495 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:43,495 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:44,000 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:44,000 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:44,507 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:44,507 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:45,014 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:45,014 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:45,520 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:45,520 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:46,030 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:46,030 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:46,536 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:46,536 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:47,043 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:47,043 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:47,549 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:47,549 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:48,054 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:48,054 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:48,561 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:48,561 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:49,070 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:49,070 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:49,577 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:49,577 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:50,082 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:50,082 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:50,591 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:50,591 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:51,097 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:51,097 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:51,604 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:51,604 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:52,111 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:52,111 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:52,616 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:52,616 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:53,123 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:53,123 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:53,629 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:53,630 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:54,138 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:54,138 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:54,645 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:54,645 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:55,151 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:55,151 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:55,656 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:55,656 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:56,164 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:56,164 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:56,671 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:56,671 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:57,178 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:57,178 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:57,685 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:57,685 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:58,196 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:58,196 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:58,707 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:58,707 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:59,214 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:59,214 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:58:59,722 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:58:59,723 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:00,228 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:00,228 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:00,732 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:00,732 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:01,240 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:01,240 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:01,749 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:01,749 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:02,255 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:02,255 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:02,763 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:02,763 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:03,268 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:03,268 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:03,776 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:03,776 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:04,284 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:04,284 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:04,792 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:04,792 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:05,296 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:05,296 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:05,805 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:05,805 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:06,311 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:06,311 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:06,818 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:06,818 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:07,326 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:07,326 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:07,831 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:07,831 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:08,339 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:08,339 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:08,846 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:08,846 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:09,354 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:09,354 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:09,860 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:09,860 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:10,367 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:10,367 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:10,875 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:10,876 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:11,380 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:11,380 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:11,889 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:11,889 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:12,396 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:12,396 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:12,907 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:12,907 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:13,413 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:13,413 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:13,918 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:13,918 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:14,425 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:14,426 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:14,935 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:14,935 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:15,439 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:15,439 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:15,949 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:15,949 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:16,455 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:16,455 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:16,962 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:16,962 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:17,468 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:17,468 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:17,976 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:17,976 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:18,481 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:18,481 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:18,988 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:18,989 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:19,501 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:19,501 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:20,014 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:20,015 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:20,520 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:20,520 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:21,027 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:21,027 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:21,532 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:21,532 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:22,040 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:22,040 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:22,547 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:22,547 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:23,056 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:23,056 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:23,564 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:23,564 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:24,071 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:24,071 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:24,585 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:24,585 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:25,097 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:25,097 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:25,608 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:25,608 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:26,119 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:26,119 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:26,630 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:26,631 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:27,143 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:27,143 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:27,652 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:27,652 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:28,160 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:28,160 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:28,670 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:28,670 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:29,181 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:29,181 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:29,691 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:29,691 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:30,201 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:30,201 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:30,711 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:30,711 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:31,222 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:31,222 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:31,735 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:31,735 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:32,234 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:32,234 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:32,743 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:32,743 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:33,254 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:33,254 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:33,765 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:33,765 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:34,273 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:34,273 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:34,782 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:34,782 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:35,293 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:35,293 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:35,805 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:35,805 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:36,317 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:36,317 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:36,828 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:36,828 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:37,340 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:37,340 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:37,850 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:37,850 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:38,362 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:38,363 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:38,873 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:38,874 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:39,388 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:39,388 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:39,901 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:39,901 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:40,413 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:40,413 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:40,924 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:40,924 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:41,439 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:41,439 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:41,953 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:41,953 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:42,453 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:42,453 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:42,965 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:42,965 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:43,476 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:43,477 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:43,987 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:43,987 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:44,499 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:44,499 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:45,013 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:45,013 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:45,524 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:45,524 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:46,024 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:46,024 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:46,534 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:46,534 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:47,042 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:47,043 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:47,554 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:47,554 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:48,068 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:48,068 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:48,581 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:48,582 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:49,090 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:49,090 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:49,603 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:49,603 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:50,118 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:50,118 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:50,629 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:50,629 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:51,142 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:51,142 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:51,657 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:51,657 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:52,169 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:52,169 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:52,684 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:52,684 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:53,197 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:53,197 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:53,708 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:53,708 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:54,221 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:54,222 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:54,735 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:54,735 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:55,236 INFO [pool-2-thread-19]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:55,236 INFO [pool-2-thread-20]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:55,749 INFO [pool-2-thread-2]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:55,749 INFO [pool-2-thread-1]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:56,260 INFO [pool-2-thread-4]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:56,260 INFO [pool-2-thread-3]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:56,772 INFO [pool-2-thread-5]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:56,773 INFO [pool-2-thread-6]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:57,287 INFO [pool-2-thread-8]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:57,287 INFO [pool-2-thread-7]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:57,800 INFO [pool-2-thread-10]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:57,800 INFO [pool-2-thread-9]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:58,313 INFO [pool-2-thread-12]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:58,313 INFO [pool-2-thread-11]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:58,829 INFO [pool-2-thread-14]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:58,829 INFO [pool-2-thread-13]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:59,342 INFO [pool-2-thread-16]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:59,342 INFO [pool-2-thread-15]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)
+2024-06-01 23:59:59,854 INFO [pool-2-thread-18]	AppendEntries response[RES_CODE_SUCCESS] from server 1 in term 1 (my term is 1)
+2024-06-01 23:59:59,854 INFO [pool-2-thread-17]	AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1 (my term is 1)

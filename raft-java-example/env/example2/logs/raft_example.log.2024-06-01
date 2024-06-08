@@ -1,0 +1,380 @@
+2024-06-01 23:58:01,468 INFO [main]	register protocol:1 success
+2024-06-01 23:58:01,500 INFO [main]	register protocol:29 success
+2024-06-01 23:58:01,503 INFO [main]	register protocol:4 success
+2024-06-01 23:58:01,505 INFO [main]	register protocol:3 success
+2024-06-01 23:58:01,506 INFO [main]	register protocol:31 success
+2024-06-01 23:58:01,507 INFO [main]	register protocol:28 success
+2024-06-01 23:58:01,507 INFO [main]	register protocol:32 success
+2024-06-01 23:58:01,508 INFO [main]	register protocol:33 success
+2024-06-01 23:58:01,508 INFO [main]	register protocol:30 success
+2024-06-01 23:58:01,509 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-06-01 23:58:01,509 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-06-01 23:58:01,510 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-06-01 23:58:01,510 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-1
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-2
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-3
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-4
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-5
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-6
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-7
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-8
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-9
+2024-06-01 23:58:01,516 INFO [main]	create thread:server-work-thread-10
+2024-06-01 23:58:01,517 INFO [main]	create thread:server-work-thread-11
+2024-06-01 23:58:01,517 INFO [main]	create thread:server-work-thread-12
+2024-06-01 23:58:01,517 INFO [main]	create thread:server-work-thread-13
+2024-06-01 23:58:01,517 INFO [main]	create thread:server-work-thread-14
+2024-06-01 23:58:01,517 INFO [main]	create thread:server-work-thread-15
+2024-06-01 23:58:01,517 INFO [main]	create thread:server-work-thread-16
+2024-06-01 23:58:02,040 INFO [main]	use jdk nio event mode
+2024-06-01 23:58:02,058 INFO [main]	create thread:timeout-timer-thread-1
+2024-06-01 23:58:02,115 WARN [main]	meta file not exist, name=./data\log\metadata
+2024-06-01 23:58:02,118 WARN [main]	meta file not exist, name=./data\snapshot\metadata
+2024-06-01 23:58:02,150 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=preVote
+2024-06-01 23:58:02,150 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=requestVote
+2024-06-01 23:58:02,153 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=appendEntries
+2024-06-01 23:58:02,154 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=installSnapshot
+2024-06-01 23:58:02,160 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=getConfiguration
+2024-06-01 23:58:02,162 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=removePeers
+2024-06-01 23:58:02,163 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=getLeader
+2024-06-01 23:58:02,164 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=addPeers
+2024-06-01 23:58:02,168 INFO [main]	register service, serviceName=com.github.raftimpl.raft.example.server.service.ExampleService, methodName=get
+2024-06-01 23:58:02,170 INFO [main]	register service, serviceName=com.github.raftimpl.raft.example.server.service.ExampleService, methodName=set
+2024-06-01 23:58:03,666 INFO [main]	create thread:server-acceptor-thread-1
+2024-06-01 23:58:03,669 INFO [main]	server started on port=8052 success
+2024-06-01 23:58:03,682 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-06-01 23:58:03,683 INFO [main]	create thread:client-work-thread-1
+2024-06-01 23:58:03,683 INFO [main]	create thread:client-work-thread-2
+2024-06-01 23:58:03,683 INFO [main]	create thread:client-work-thread-3
+2024-06-01 23:58:03,683 INFO [main]	create thread:client-work-thread-4
+2024-06-01 23:58:03,683 INFO [main]	create thread:client-work-thread-5
+2024-06-01 23:58:03,683 INFO [main]	create thread:client-work-thread-6
+2024-06-01 23:58:03,683 INFO [main]	create thread:client-work-thread-7
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-8
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-9
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-10
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-11
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-12
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-13
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-14
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-15
+2024-06-01 23:58:03,684 INFO [main]	create thread:client-work-thread-16
+2024-06-01 23:58:03,701 INFO [main]	create thread:client-io-thread-1
+2024-06-01 23:58:03,707 INFO [main]	create thread:client-io-thread-2
+2024-06-01 23:58:03,708 INFO [main]	create thread:client-io-thread-3
+2024-06-01 23:58:03,709 INFO [main]	create thread:client-io-thread-4
+2024-06-01 23:58:03,709 INFO [main]	create thread:client-io-thread-5
+2024-06-01 23:58:03,710 INFO [main]	create thread:client-io-thread-6
+2024-06-01 23:58:03,711 INFO [main]	create thread:client-io-thread-7
+2024-06-01 23:58:03,712 INFO [main]	create thread:client-io-thread-8
+2024-06-01 23:58:03,747 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-1
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-2
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-3
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-4
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-5
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-6
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-7
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-8
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-9
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-10
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-11
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-12
+2024-06-01 23:58:03,748 INFO [main]	create thread:client-work-thread-13
+2024-06-01 23:58:03,749 INFO [main]	create thread:client-work-thread-14
+2024-06-01 23:58:03,749 INFO [main]	create thread:client-work-thread-15
+2024-06-01 23:58:03,749 INFO [main]	create thread:client-work-thread-16
+2024-06-01 23:58:03,754 INFO [main]	create thread:client-io-thread-1
+2024-06-01 23:58:03,886 INFO [server-acceptor-thread-1]	create thread:server-io-thread-1
+2024-06-01 23:58:03,887 INFO [server-acceptor-thread-1]	create thread:server-io-thread-2
+2024-06-01 23:58:03,888 INFO [server-acceptor-thread-1]	create thread:server-io-thread-3
+2024-06-01 23:58:03,889 INFO [server-acceptor-thread-1]	create thread:server-io-thread-4
+2024-06-01 23:58:03,890 INFO [server-acceptor-thread-1]	create thread:server-io-thread-5
+2024-06-01 23:58:03,891 INFO [server-acceptor-thread-1]	create thread:server-io-thread-6
+2024-06-01 23:58:03,892 INFO [server-acceptor-thread-1]	create thread:server-io-thread-7
+2024-06-01 23:58:03,893 INFO [server-acceptor-thread-1]	create thread:server-io-thread-8
+2024-06-01 23:58:04,046 INFO [server-acceptor-thread-1]	create thread:server-io-thread-9
+2024-06-01 23:58:04,047 INFO [server-acceptor-thread-1]	create thread:server-io-thread-10
+2024-06-01 23:58:04,048 INFO [server-acceptor-thread-1]	create thread:server-io-thread-11
+2024-06-01 23:58:04,050 INFO [server-acceptor-thread-1]	create thread:server-io-thread-12
+2024-06-01 23:58:04,050 INFO [server-acceptor-thread-1]	create thread:server-io-thread-13
+2024-06-01 23:58:04,051 INFO [server-acceptor-thread-1]	create thread:server-io-thread-14
+2024-06-01 23:58:04,052 INFO [server-acceptor-thread-1]	create thread:server-io-thread-15
+2024-06-01 23:58:04,053 INFO [server-acceptor-thread-1]	create thread:server-io-thread-16
+2024-06-01 23:58:04,265 INFO [main]	create thread:client-io-thread-2
+2024-06-01 23:58:04,267 INFO [main]	create thread:client-io-thread-3
+2024-06-01 23:58:04,268 INFO [main]	create thread:client-io-thread-4
+2024-06-01 23:58:04,269 INFO [main]	create thread:client-io-thread-5
+2024-06-01 23:58:04,271 INFO [main]	create thread:client-io-thread-6
+2024-06-01 23:58:04,272 INFO [main]	create thread:client-io-thread-7
+2024-06-01 23:58:04,273 INFO [main]	create thread:client-io-thread-8
+2024-06-01 23:58:08,723 INFO [client-io-thread-2]	create thread:invalid-channel-callback-thread-1
+2024-06-01 23:58:09,836 INFO [server-work-thread-1]	preVote request from server 3 in term 0 (my term is 0), granted=true
+2024-06-01 23:58:09,848 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2024-06-01 23:58:09,849 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:09,849 INFO [server-work-thread-3]	RequestVote request from server 3 in term 1 (my term is 1), granted=true
+2024-06-01 23:58:09,868 WARN [server-work-thread-4]	invoke method failed, msg=null
+java.lang.ExceptionInInitializerError: null
+	at com.github.raftimpl.raft.proto.RaftProto$Configuration.internalGetFieldAccessorTable(RaftProto.java:1433) ~[raft-java-core-1.9.0.jar:?]
+	at com.google.protobuf.GeneratedMessage.getAllFieldsMutable(GeneratedMessage.java:105) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.GeneratedMessage.getAllFields(GeneratedMessage.java:153) ~[protobuf-java-2.5.0.jar:?]
+	at com.googlecode.protobuf.format.JsonFormat.print(JsonFormat.java:97) ~[protobuf-java-format-1.4.jar:?]
+	at com.googlecode.protobuf.format.JsonFormat.print(JsonFormat.java:80) ~[protobuf-java-format-1.4.jar:?]
+	at com.googlecode.protobuf.format.AbstractCharBasedFormatter.print(AbstractCharBasedFormatter.java:32) ~[protobuf-java-format-1.4.jar:?]
+	at com.googlecode.protobuf.format.ProtobufFormatter.printToString(ProtobufFormatter.java:89) ~[protobuf-java-format-1.4.jar:?]
+	at com.github.raftimpl.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:118) ~[raft-java-core-1.9.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_202]
+	at com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:32) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ServerTraceInterceptor.aroundProcess(ServerTraceInterceptor.java:40) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.ServerWorkTask.run(ServerWorkTask.java:79) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.DecodeWorkTask.run(DecodeWorkTask.java:143) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) [brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+Caused by: java.lang.IllegalArgumentException: Failed to parse protocol buffer descriptor for generated code.
+	at com.google.protobuf.Descriptors$FileDescriptor.internalBuildGeneratedFileFrom(Descriptors.java:293) ~[protobuf-java-2.5.0.jar:?]
+	at com.github.raftimpl.raft.proto.RaftProto.<clinit>(RaftProto.java:14131) ~[raft-java-core-1.9.0.jar:?]
+	... 24 more
+Caused by: com.google.protobuf.InvalidProtocolBufferException: Protocol message tag had invalid wire type.
+	at com.google.protobuf.InvalidProtocolBufferException.invalidWireType(InvalidProtocolBufferException.java:99) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.UnknownFieldSet$Builder.mergeFieldFrom(UnknownFieldSet.java:498) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.GeneratedMessage.parseUnknownField(GeneratedMessage.java:193) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto.<init>(DescriptorProtos.java:1073) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto.<init>(DescriptorProtos.java:1031) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto$1.parsePartialFrom(DescriptorProtos.java:1248) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto$1.parsePartialFrom(DescriptorProtos.java:1243) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.AbstractParser.parsePartialFrom(AbstractParser.java:141) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:176) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:188) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:193) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:49) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto.parseFrom(DescriptorProtos.java:1897) ~[protobuf-java-2.5.0.jar:?]
+	at com.google.protobuf.Descriptors$FileDescriptor.internalBuildGeneratedFileFrom(Descriptors.java:291) ~[protobuf-java-2.5.0.jar:?]
+	at com.github.raftimpl.raft.proto.RaftProto.<clinit>(RaftProto.java:14131) ~[raft-java-core-1.9.0.jar:?]
+	... 24 more
+2024-06-01 23:58:09,875 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:10,364 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:10,877 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:11,380 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:11,894 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:12,407 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:12,921 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:13,432 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:13,944 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:14,458 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:14,971 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:15,484 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:15,995 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:16,509 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:17,022 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:17,534 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:18,044 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:18,546 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:19,057 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:19,571 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:20,085 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:20,599 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:21,113 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:21,625 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:22,136 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:22,637 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:23,148 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:23,661 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:24,172 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:24,684 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:25,192 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:25,705 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:26,218 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:26,729 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:27,243 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:27,746 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:28,253 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:28,757 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:29,262 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:29,764 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:30,278 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:30,792 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:31,306 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:31,821 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:32,335 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:32,847 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:33,361 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:33,871 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:34,378 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:34,882 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:35,390 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:35,896 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:36,403 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:36,910 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:37,415 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:37,921 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:38,426 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:38,932 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:39,440 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:39,948 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:40,453 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:40,959 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:41,465 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:41,971 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:42,477 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:42,985 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:43,494 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:43,999 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:44,507 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:45,013 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:45,519 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:46,029 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:46,535 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:47,042 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:47,548 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:48,053 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:48,560 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:49,069 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:49,576 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:50,081 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:50,590 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:51,096 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:51,603 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:52,110 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:52,615 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:53,122 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:53,629 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:54,137 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:54,644 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:55,150 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:55,655 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:56,163 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:56,670 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:57,177 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:57,684 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:58,195 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:58,706 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:59,213 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:58:59,722 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:00,227 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:00,731 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:01,239 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:01,748 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:02,254 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:02,762 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:03,267 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:03,775 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:04,283 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:04,791 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:05,295 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:05,804 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:06,310 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:06,817 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:07,325 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:07,830 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:08,338 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:08,845 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:09,353 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:09,860 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:10,366 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:10,875 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:11,379 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:11,888 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:12,395 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:12,905 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:13,411 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:13,917 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:14,425 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:14,934 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:15,438 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:15,948 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:16,454 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:16,961 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:17,467 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:17,975 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:18,480 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:18,988 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:19,500 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:20,012 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:20,519 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:21,026 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:21,532 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:22,039 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:22,546 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:23,055 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:23,563 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:24,070 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:24,584 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:25,096 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:25,607 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:26,118 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:26,629 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:27,142 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:27,651 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:28,159 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:28,669 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:29,180 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:29,690 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:30,200 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:30,710 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:31,221 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:31,734 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:32,233 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:32,742 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:33,253 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:33,763 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:34,272 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:34,781 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:35,292 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:35,805 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:36,316 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:36,827 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:37,339 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:37,849 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:38,361 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:38,873 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:39,387 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:39,900 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:40,412 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:40,923 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:41,438 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:41,952 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:42,453 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:42,965 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:43,476 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:43,986 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:44,498 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:45,012 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:45,522 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:46,023 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:46,533 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:47,042 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:47,553 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:48,067 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:48,581 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:49,089 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:49,602 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:50,117 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:50,628 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:51,141 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:51,656 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:52,169 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:52,683 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:53,196 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:53,707 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:54,221 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:54,734 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:55,235 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:55,748 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:56,259 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:56,772 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:57,286 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:57,799 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:58,312 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:58,828 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:59,341 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1
+2024-06-01 23:59:59,853 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=3, firstLogIndex=1

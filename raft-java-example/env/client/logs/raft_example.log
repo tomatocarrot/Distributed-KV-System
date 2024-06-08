@@ -1,0 +1,150 @@
+2024-06-02 10:05:52,589 INFO [main]	register protocol:1 success
+2024-06-02 10:05:52,618 INFO [main]	register protocol:29 success
+2024-06-02 10:05:52,620 INFO [main]	register protocol:4 success
+2024-06-02 10:05:52,623 INFO [main]	register protocol:3 success
+2024-06-02 10:05:52,624 INFO [main]	register protocol:31 success
+2024-06-02 10:05:52,624 INFO [main]	register protocol:28 success
+2024-06-02 10:05:52,625 INFO [main]	register protocol:32 success
+2024-06-02 10:05:52,625 INFO [main]	register protocol:33 success
+2024-06-02 10:05:52,626 INFO [main]	register protocol:30 success
+2024-06-02 10:05:52,626 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-06-02 10:05:52,627 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-06-02 10:05:52,627 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-06-02 10:05:52,627 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-06-02 10:05:52,637 INFO [main]	create thread:timeout-timer-thread-1
+2024-06-02 10:05:52,639 INFO [main]	create thread:health-check-timer-thread-1
+2024-06-02 10:05:52,640 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-1
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-2
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-3
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-4
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-5
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-6
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-7
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-8
+2024-06-02 10:05:52,642 INFO [main]	create thread:client-work-thread-9
+2024-06-02 10:05:52,643 INFO [main]	create thread:client-work-thread-10
+2024-06-02 10:05:52,643 INFO [main]	create thread:client-work-thread-11
+2024-06-02 10:05:52,643 INFO [main]	create thread:client-work-thread-12
+2024-06-02 10:05:52,643 INFO [main]	create thread:client-work-thread-13
+2024-06-02 10:05:52,643 INFO [main]	create thread:client-work-thread-14
+2024-06-02 10:05:52,643 INFO [main]	create thread:client-work-thread-15
+2024-06-02 10:05:52,643 INFO [main]	create thread:client-work-thread-16
+2024-06-02 10:05:53,739 INFO [main]	create thread:client-io-thread-1
+2024-06-02 10:05:53,745 INFO [main]	create thread:client-io-thread-2
+2024-06-02 10:05:53,746 INFO [main]	create thread:client-io-thread-3
+2024-06-02 10:05:53,750 INFO [main]	create thread:client-io-thread-4
+2024-06-02 10:05:53,761 INFO [main]	create thread:client-io-thread-5
+2024-06-02 10:05:53,762 INFO [main]	create thread:client-io-thread-6
+2024-06-02 10:05:53,763 INFO [main]	create thread:client-io-thread-7
+2024-06-02 10:05:53,764 INFO [main]	create thread:client-io-thread-8
+2024-06-02 10:05:53,766 INFO [main]	create thread:client-io-thread-9
+2024-06-02 10:05:53,767 INFO [main]	create thread:client-io-thread-10
+2024-06-02 10:05:53,767 INFO [main]	create thread:client-io-thread-11
+2024-06-02 10:05:53,768 INFO [main]	create thread:client-io-thread-12
+2024-06-02 10:05:53,769 INFO [main]	create thread:client-io-thread-13
+2024-06-02 10:05:53,770 INFO [main]	create thread:client-io-thread-14
+2024-06-02 10:05:53,770 INFO [main]	create thread:client-io-thread-15
+2024-06-02 10:05:53,771 INFO [main]	create thread:client-io-thread-16
+2024-06-02 10:05:53,905 ERROR [main]	exception :
+com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Could not initialize class com.github.raftimpl.raft.example.server.service.ExampleProto
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:268) [brpc-java-2.5.9.jar:?]
+	at com.github.raftimpl.raft.example.server.service.ExampleService$$EnhancerByCGLIB$$b85a9f0d.set(<generated>) [raft-java-example-1.9.0.jar:?]
+	at com.github.raftimpl.raft.example.client.ClientMain.main(ClientMain.java:36) [raft-java-example-1.9.0.jar:?]
+Caused by: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Could not initialize class com.github.raftimpl.raft.example.server.service.ExampleProto
+	at com.baidu.brpc.client.RpcFuture.get(RpcFuture.java:178) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.rpcCore(LoadBalanceInterceptor.java:93) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.invokeRpc(LoadBalanceInterceptor.java:82) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.aroundProcess(LoadBalanceInterceptor.java:62) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ClientTraceInterceptor.aroundProcess(ClientTraceInterceptor.java:40) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:266) ~[brpc-java-2.5.9.jar:?]
+	... 2 more
+Caused by: com.baidu.brpc.exceptions.RpcException: Could not initialize class com.github.raftimpl.raft.example.server.service.ExampleProto
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:162) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:70) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:65) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) ~[brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_202]
+2024-06-02 10:05:53,909 INFO [Thread-1]	Brpc do clean work...
+2024-06-02 10:05:53,909 INFO [Thread-1]	invoke shutdownGlobalThreadPools
+2024-06-02 10:06:25,208 INFO [main]	register protocol:1 success
+2024-06-02 10:06:25,240 INFO [main]	register protocol:29 success
+2024-06-02 10:06:25,242 INFO [main]	register protocol:4 success
+2024-06-02 10:06:25,245 INFO [main]	register protocol:3 success
+2024-06-02 10:06:25,245 INFO [main]	register protocol:31 success
+2024-06-02 10:06:25,246 INFO [main]	register protocol:28 success
+2024-06-02 10:06:25,247 INFO [main]	register protocol:32 success
+2024-06-02 10:06:25,247 INFO [main]	register protocol:33 success
+2024-06-02 10:06:25,247 INFO [main]	register protocol:30 success
+2024-06-02 10:06:25,248 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-06-02 10:06:25,248 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-06-02 10:06:25,249 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-06-02 10:06:25,249 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-06-02 10:06:25,260 INFO [main]	create thread:timeout-timer-thread-1
+2024-06-02 10:06:25,261 INFO [main]	create thread:health-check-timer-thread-1
+2024-06-02 10:06:25,263 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-1
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-2
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-3
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-4
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-5
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-6
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-7
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-8
+2024-06-02 10:06:25,266 INFO [main]	create thread:client-work-thread-9
+2024-06-02 10:06:25,267 INFO [main]	create thread:client-work-thread-10
+2024-06-02 10:06:25,267 INFO [main]	create thread:client-work-thread-11
+2024-06-02 10:06:25,267 INFO [main]	create thread:client-work-thread-12
+2024-06-02 10:06:25,267 INFO [main]	create thread:client-work-thread-13
+2024-06-02 10:06:25,267 INFO [main]	create thread:client-work-thread-14
+2024-06-02 10:06:25,267 INFO [main]	create thread:client-work-thread-15
+2024-06-02 10:06:25,267 INFO [main]	create thread:client-work-thread-16
+2024-06-02 10:06:26,318 INFO [main]	create thread:client-io-thread-1
+2024-06-02 10:06:26,324 INFO [main]	create thread:client-io-thread-2
+2024-06-02 10:06:26,325 INFO [main]	create thread:client-io-thread-3
+2024-06-02 10:06:26,328 INFO [main]	create thread:client-io-thread-4
+2024-06-02 10:06:26,339 INFO [main]	create thread:client-io-thread-5
+2024-06-02 10:06:26,340 INFO [main]	create thread:client-io-thread-6
+2024-06-02 10:06:26,341 INFO [main]	create thread:client-io-thread-7
+2024-06-02 10:06:26,341 INFO [main]	create thread:client-io-thread-8
+2024-06-02 10:06:26,344 INFO [main]	create thread:client-io-thread-9
+2024-06-02 10:06:26,345 INFO [main]	create thread:client-io-thread-10
+2024-06-02 10:06:26,345 INFO [main]	create thread:client-io-thread-11
+2024-06-02 10:06:26,346 INFO [main]	create thread:client-io-thread-12
+2024-06-02 10:06:26,347 INFO [main]	create thread:client-io-thread-13
+2024-06-02 10:06:26,347 INFO [main]	create thread:client-io-thread-14
+2024-06-02 10:06:26,348 INFO [main]	create thread:client-io-thread-15
+2024-06-02 10:06:26,349 INFO [main]	create thread:client-io-thread-16
+2024-06-02 10:06:26,438 ERROR [main]	exception :
+com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Could not initialize class com.github.raftimpl.raft.example.server.service.ExampleProto
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:268) [brpc-java-2.5.9.jar:?]
+	at com.github.raftimpl.raft.example.server.service.ExampleService$$EnhancerByCGLIB$$b85a9f0d.get(<generated>) [raft-java-example-1.9.0.jar:?]
+	at com.github.raftimpl.raft.example.client.ClientMain.main(ClientMain.java:43) [raft-java-example-1.9.0.jar:?]
+Caused by: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Could not initialize class com.github.raftimpl.raft.example.server.service.ExampleProto
+	at com.baidu.brpc.client.RpcFuture.get(RpcFuture.java:178) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.rpcCore(LoadBalanceInterceptor.java:93) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.invokeRpc(LoadBalanceInterceptor.java:82) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.aroundProcess(LoadBalanceInterceptor.java:62) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ClientTraceInterceptor.aroundProcess(ClientTraceInterceptor.java:40) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:266) ~[brpc-java-2.5.9.jar:?]
+	... 2 more
+Caused by: com.baidu.brpc.exceptions.RpcException: Could not initialize class com.github.raftimpl.raft.example.server.service.ExampleProto
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:162) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:70) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:65) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) ~[brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_202]
+2024-06-02 10:06:26,441 INFO [Thread-1]	Brpc do clean work...
+2024-06-02 10:06:26,442 INFO [Thread-1]	invoke shutdownGlobalThreadPools
